@@ -20,10 +20,13 @@ O site é 100% estático: basta subir o conteúdo de `site/` para a raiz do
 domínio (`construtorarodriguessantos.com.br`), via FTP/hospedagem ou em
 serviços como Netlify, Vercel ou Cloudflare Pages.
 
-Antes de publicar, ajuste em `index.html`:
+Publicado (preview) em **https://willahc.github.io/construtora-rodrigues-santos/**
+(repositório: `Willahc/construtora-rodrigues-santos`, branch `main`, raiz).
 
-- `canonical`, `og:url` e `og:image` — hoje apontam para
-  `https://construtorarodriguessantos.com.br/`.
+Antes de publicar no domínio próprio, ajuste em `index.html`:
+
+- `canonical`, `og:url`, `og:image` e o `url`/`image` do JSON-LD — hoje apontam
+  para o endereço do GitHub Pages.
 - JSON-LD (`GeneralContractor`) — telefone, e-mail e cidades atendidas.
 
 ## Estrutura
