@@ -162,10 +162,12 @@
     btnClose.focus();
   }
 
+  var PLACEHOLDER = 'data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==';
+
   function closeLightbox() {
     lb.hidden = true;
     document.body.style.overflow = '';
-    lbImg.removeAttribute('src');
+    lbImg.src = PLACEHOLDER;
     if (lastFocus && lastFocus.focus) lastFocus.focus();
   }
 
